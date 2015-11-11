@@ -1,7 +1,7 @@
 # gamecraft-update-0.1.1
 
 changelog
-- fix parcours
+- fix parcours x
 - remove trampoline
 Update for my pocketmine server GameCraft PE
 
