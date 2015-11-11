@@ -1,0 +1,20 @@
+name: NoVoid
+main: rirititi\NoVoid\Main
+version: 0.3
+author: rirititi
+api: [1.0.0]
+load: POSTWORLD
+
+commands:
+ nv:
+  description: NoVoid Commands
+  usage: "Usage: /nv"
+  permission: novoid.command.nv
+ heart:
+  description: NoVoid Commands
+  usage: "Usage: /heart <Amount>"
+  permission: novoid.command.nv
+permissions:
+ novoid.command.nv:
+  description: "Allows the user to run novoid command"
+  default: op
