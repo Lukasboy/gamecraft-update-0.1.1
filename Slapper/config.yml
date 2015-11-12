@@ -1,0 +1,105 @@
+---
+FallbackCommand:
+- tell {player} not setup please wait
+SuperMan:
+- effect {player} clear
+- effect {player} 1 9999 2 true
+- effect {player} 8 9999 2 true
+- tp {player} 136 70 161
+Joker:
+- effect {player} clear
+- effect {player} 1 9999 1 true
+- effect {player} 11 9999 true
+- tp {player} 136 70 161
+DarkFighter:
+- effect {player} clear
+- effect {player} 11 9999 1 true
+- tp {player} 136 70 161
+Parcours:
+- mw tp {player} parkour
+- effect {player} clear
+TNTRun:
+- tell {player} TNTRun offline
+- effect {player} clear
+PvP:
+- mw tp {player} pvp
+- effect {player} clear
+HungerGames:
+- tell {player} HungerGames Comming Soon
+- effect {player} clear
+MyPlot:
+- transfer {player} 84.195.4.140 19134
+- effect {player} clear
+GoldKit $2000:
+- effect {player} clear
+- rca {player} kit goldkit
+DiamondKit $6000:
+- effect {player} clear
+- rca {player} kit diamondkit
+IronKit $4000:
+- effect {player} clear
+- rca {player} kit ironkit
+ChainKit $1000:
+- effect {player} clear
+- rca {player} kit chainkit
+FreeKit:
+- effect {player} clear
+- rca {player} kit freekit
+DiamondSword $1200:
+- effect {player} clear
+- rca {player} kit diamondsword
+GoldSword $400:
+- effect {player} clear
+- rca {player} kit goldsword
+IronSword $800:
+- effect {player} clear
+- rca {player} kit ironsword
+Vote:
+- effect {player} clear
+- rca {player} kit vote
+VoteInfo:
+- effect {player} clear
+- tell {player} vote GameCraft on www.gamecraftvote.tk for a nice reward!
+- tell {player} get that reward by the player with the name "vote".
+English:
+- mw tp {player} Lobby
+Nederlands:
+- mw tp {player} Lobby
+Lobby:
+- mw tp {player} Lobby
+- effect {player} clear
+- effect {player} 1 9999 3 true
+VoteInformatie:
+- tell {player} vote GameCraft op minecraftpocket-servers.com voor een leuke beloning!
+- tell {player} ontvang die beloning door op de speler te tikken met de naam "vote".
+mymoney:
+- rca {player} mymoney
+mijn geld:
+- rca {player} mymoney
+ExampleAsPlayer:
+- rca {player} me is cool
+ExampleAsConsole:
+- me thinks {player} is cool
+1vs1:
+- transfer {player} 84.195.4.140 19135
+GetSpeed:
+- effect {player} clear
+- effect {player} 1 9999 3 true
+Read Mails:
+- rca {player} mail read
+how to send a mail:
+- rca {player} mail send
+how to send a mail to the GameCraft staff:
+- tell {player} usage /mail send Server < Message >
+Delete Mails:
+- rca {player} mail clear
+Trampoline:
+- mw tp {player} trampoline
+- effect {player} clear
+MazeRunner:
+- mw tp {player} maze
+- effect {player} clear
+Earn Reward:
+- rca {player} spawn
+- givemoney {player} 50
+...
