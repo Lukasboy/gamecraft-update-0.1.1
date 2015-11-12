@@ -90,7 +90,7 @@ Read Mails:
 how to send a mail:
 - rca {player} mail send
 how to send a mail to the GameCraft staff:
-- tell {player} usage /mail send Server < Message >
+- tell {player} usage: /mail send Server <Message>
 Delete Mails:
 - rca {player} mail clear
 MazeRunner:
