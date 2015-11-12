@@ -93,9 +93,6 @@ how to send a mail to the GameCraft staff:
 - tell {player} usage /mail send Server < Message >
 Delete Mails:
 - rca {player} mail clear
-Trampoline:
-- mw tp {player} trampoline
-- effect {player} clear
 MazeRunner:
 - mw tp {player} maze
 - effect {player} clear
