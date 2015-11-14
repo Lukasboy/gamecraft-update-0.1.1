@@ -1,6 +1,6 @@
 ---
 FallbackCommand:
-- tell {player} not setup please wait
+- tell {player} i am not setup, please wait!
 SuperMan:
 - effect {player} clear
 - effect {player} 1 9999 2 true
